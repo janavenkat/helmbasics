@@ -1,0 +1,6 @@
+service:
+  type: NodePort
+  port: 8080
+  targetport: 8080
+  nodeport: 31228
+  servicename: httpd-service
